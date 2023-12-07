@@ -1,0 +1,206 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+.container{
+    background-color: #bfcad6;
+    height: 100vh;
+    
+}
+.box1 {
+    background-color: #61666d;
+
+
+}
+
+.box1 .cards {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    /* background-color: blue; */
+}
+
+.box1 .card1 {
+    
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    gap: 10px;
+    padding: 10px;
+    margin-left: 10px;
+}
+
+.box1 .card1 h1 {
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.box1 .card2 h1 {
+    color: #FFF;
+    font-family: Quicksand;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+}
+
+.box1 .card2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-right: 100px;
+}
+
+.box2 {
+    /* background-color: orange; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid black;
+
+}
+
+.box2  {
+    width: 70%;
+    margin: auto;
+    padding-top: 30px;
+    
+}
+.box2 .location1 .spot1 {
+    display: flex;
+}
+
+.box2 .spot1 h1 {
+    color: #1D2540;
+    font-family: Roboto;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.box2 .location1 .spot2 {
+    color: #606060;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.box2 .spot3{
+    display: flex;
+    border: 2px solid black;
+}
+.box2 .spot3 input{
+    width: 300px;
+    height: 30px;
+    font-style: italic;
+    padding-left: 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.box3 .wrapper{
+    display: flex;
+     /* background-color: pink; */
+    justify-content: center;
+    align-items: center;
+    /* width: 100vw;
+    height: 100vh; */
+    margin-top: 30px;
+    gap: 50px;
+     
+}
+.box3 .frame1{
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    /* background-color: skyblue; */
+}
+.box3 .wrapper .frame1 li{
+    color: #000;
+        font-family: Roboto;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        list-style: none;
+        padding: 5px;
+}
+.box3 .wrapper .frame2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 190px;
+    height: 240px;
+    /* background-color: #3a3d44; */
+    flex-direction: column;
+    color: white;
+    border-radius: 20px;
+    gap: 10px;
+    /* margin-top: 30px; */
+
+}
+.wrapper .frame2 h1{
+    /* background-color: orange; */
+    color:#202843;
+}
+
+.box3 .frame2 .card1{
+    display: flex;
+    gap: 10px;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 2px solid black;
+    /* background-color: yellow; */
+    width: 100%;
+    padding-bottom: 10px;
+
+    
+    
+
+}
+.box3 .frame2 .card1 img{
+   height: 40px;
+   width: 50px;
+}   
+
+.box3 .frame2 h1{
+/* color: #444; */
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.frame2 .card {
+    /* background-color: red; */
+    /* list-style: none; */
+    background-color: #3a3d44;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    gap: 10px;
+    padding: 10px;
+    height: 300px;
+    border-radius: 10px;
+    
+}
+.frame2 .card .card2 li{
+    list-style: none;
+    padding: 5px;
+    /* margin: 5px; */
+    
+}
